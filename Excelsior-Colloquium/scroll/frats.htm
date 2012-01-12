@@ -1,0 +1,1841 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="head">
+
+
+
+
+
+<title>
+	Student Tech Clubs - Manage Members
+</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link id="_cssLink" href="frats_files/Academic.css" type="text/css" rel="stylesheet"><meta name="X-UA-Compatible" content="IE=EmulateIE7"></head><body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+    <form name="form1" method="post" action="publish/ac_MemberManager.aspx?ActiveID=5339" id="form1">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwNjMyNDUyMzkPZBYCAgQPZBYMAgMPZBYCAgEPZBYIAgEPDxYGHgtOYXZpZ2F0ZVVybAUYL015U3R1ZGVudFRlY2hDbHVicy51Z3NzHghJbWFnZVVybGUeB1Zpc2libGVoZGQCAw9kFgQCAQ8PFgIfAAU0aHR0cHM6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfUlNTRmVlZFBhZ2UudWdzc2RkAgMPFgIeC18hSXRlbUNvdW50AgUWCmYPZBYEAgEPDxYEHgRUZXh0BQpNeSBQcm9maWxlHwAFP2h0dHA6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfTXlQcm9maWxlLnVnc3M/QWN0aXZlSUQ9NTI3NWRkAgIPFgIfBAUDIHwgZAIBD2QWBAIBDw8WBB8EBQZTZWFyY2gfAAU8aHR0cDovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19TZWFyY2gudWdzcz9BY3RpdmVJRD01Mjg3ZGQCAg8WAh8EBQMgfCBkAgIPZBYEAgEPDxYEHwQFA0ZBUR8ABTlodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX0ZBUS51Z3NzP0FjdGl2ZUlEPTUyODhkZAICDxYCHwQFAyB8IGQCAw9kFgQCAQ8PFgQfBAUESGVscB8ABUFodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX0hlbHBDb250ZW50LnVnc3M/QWN0aXZlSUQ9NTI4OWRkAgIPFgIfBAUDIHwgZAIED2QWAgIBDw8WBB8EBQdDb250YWN0HwAFP2h0dHA6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfQ29udGFjdFVzLnVnc3M/QWN0aXZlSUQ9NTMwMWRkAgcPZBYCAgEPFgIfAwIJFhJmD2QWAgIBD2QWAmYPDxYEHwQFEE15IFN0dWRlbnQgQ2x1YnMfAAVFaHR0cDovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9NeVN0dWRlbnRUZWNoQ2x1YnMudWdzcz9BY3RpdmVJRD01MzAzZGQCAQ9kFgQCAQ8PFgQeCENzc0NsYXNzBQpsZWZ0YWN0aXZlHgRfIVNCAgJkFgJmDw8WBB8EBQtVc2VyIEdyb3Vwcx8ABUdodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX1VzZXJHcm91cE92ZXJ2aWV3LnVnc3M/QWN0aXZlSUQ9NTMwNGRkAgMPDxYEHwUFC3JpZ2h0YWN0aXZlHwYCAmRkAgIPZBYCAgEPZBYCZg8PFgQfBAUIU3BlYWtlcnMfAAVFaHR0cDovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19TcGVha2VyUmVnaXN0cnkudWdzcz9BY3RpdmVJRD01MzU0ZGQCAw9kFgICAQ9kFgJmDw8WBB8EBQ9FdmVudHMgQ2FsZW5kYXIfAAVEaHR0cDovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19VcGNvbWluZ0V2ZW50cy51Z3NzP0FjdGl2ZUlEPTUzNjJkZAIED2QWAgIBD2QWAmYPDxYEHwQFD1JlY29yZGVkIEV2ZW50cx8ABURodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX1JlY29yZGVkRXZlbnRzLnVnc3M/QWN0aXZlSUQ9NTM2M2RkAgUPZBYCAgEPZBYCZg8PFgQfBAUETmV3cx8ABTpodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX05ld3MudWdzcz9BY3RpdmVJRD01MzY0ZGQCBg9kFgICAQ9kFgJmDw8WBB8EBQZGb3J1bXMfAAU8aHR0cDovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19Gb3J1bXMudWdzcz9BY3RpdmVJRD01MzY1ZGQCBw9kFgICAQ9kFgJmDw8WBB8EBQVCbG9ncx8ABTtodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX0Jsb2dzLnVnc3M/QWN0aXZlSUQ9NTM2NmRkAggPZBYCAgEPZBYCZg8PFgQfBAUJQ29tbXVuaXR5HwAFP2h0dHA6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfQ29tbXVuaXR5LnVnc3M/QWN0aXZlSUQ9NTM2N2RkAgkPZBYCAgQPZBYCAgEPZBYGAgEPZBYEAgEPDxYCHwAFEi9hY19Cb29rbWFya3MudWdzc2RkAgMPFgIfA2ZkAgMPDxYCHwJoZGQCBw8WAh8DAgMWBmYPZBYCAgEPDxYIHgZUYXJnZXQFBF9uZXceB1Rvb2xUaXAFGk1pY3Jvc29mdCBTdHVkZW50IFBhcnRuZXJzHwQFEE1pY3Jvc29mdCBTdHUuLi4fAAVgL1JlZGlyZWN0LmFzcHg/RWxlbWVudElEPTE3MDcmRWxlbWVudFR5cGU9NTQmVXJsUmVmZXJlcj1odHRwJTNhJTJmJTJmd3d3LnN0dWRlbnQtcGFydG5lcnMuY29tJTJmZGQCAQ9kFgICAQ8PFggfBwUEX25ldx8IBRJTdHVkZW50IEV4cGVyaWVuY2UfBAUQU3R1ZGVudCBFeHBlci4uLh8ABWEvUmVkaXJlY3QuYXNweD9FbGVtZW50SUQ9MTcwNiZFbGVtZW50VHlwZT01NCZVcmxSZWZlcmVyPWh0dHAlM2ElMmYlMmZ3d3cubWljcm9zb2Z0LmNvbSUyZnN0dWRlbnRzZGQCAg9kFgICAQ8PFggfBwUEX25ldx8IBQlDaGFubmVsIDgfBAUJQ2hhbm5lbCA4HwAFWS9SZWRpcmVjdC5hc3B4P0VsZW1lbnRJRD0xNzA0JkVsZW1lbnRUeXBlPTU0JlVybFJlZmVyZXI9aHR0cCUzYSUyZiUyZmNoYW5uZWw4Lm1zZG4uY29tJTJmZGQCBQ9kFghmD2QWBGYPDxYCHwQFB0hlbGxvLCBkZAIBDw8WAh8EBQdOaXRpc2ghZGQCAg8WAh8CaGQCAw8PFgIfAmdkFgRmDw8WAh8EBQhbTG9nb3V0XWRkAgIPDxYCHwJoZBYCZg8WAh8EBZ8DPGEgaWQ9ImlkUFBTY2FyYWIiIGhyZWY9Imh0dHA6Ly9sb2dpbi5saXZlLmNvbS9sb2dpbi5zcmY/d2E9d3NpZ25pbjEuMCZhbXA7cnBzbnY9MTEmYW1wO2N0PTEyNTM3MjAyMTkmYW1wO3J2ZXI9NS4wLjMyNjUuMCZhbXA7d3A9TEJJJmFtcDt3cmVwbHk9aHR0cHM6JTJGJTJGd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tJTJGYWNfTGl2ZUxvZ2luLnVnc3MlM0ZyZXRsaXZlSUQlM0R5JTI2UmV0dXJuVXJsJTNEJmFtcDtsYz0xMDMzJmFtcDtpZD0yNTc5NDIiPjxpbWcgc3JjPSJodHRwczovL3d3dy5wYXNzcG9ydGltYWdlcy5jb20vMTAzMy9zaWduaW4uZ2lmIiBjbGFzcz0iUGFzc3BvcnRTaWduSW4iIGFsdD0iU2lnbiBpbiB0byBXaW5kb3dzIExpdmUgSUQiICBzdHlsZT0iYm9yZGVyLXN0eWxlOm5vbmUiIGlkPSJpZFNJIi8+PC9hPmQCBQ8PFgIfAmhkZAIHD2QWBAIBDw8WAh8EBQtVc2VyIEdyb3Vwc2RkAgMPFgIfAwIDFgZmD2QWBAIBDw8WAh8CaGQWAgIBDw8WAh8EBQRNYWluZGQCAw8WAh8DAgUWCmYPZBYCAgEPDxYEHwQFGEFib3V0IFN0dWRlbnQgVGVjaCBDbHVicx8ABUVodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX0Fib3V0VXNlckdyb3Vwcy51Z3NzP0FjdGl2ZUlEPTUzMDdkZAIBD2QWAgIBDw8WBB8EBRFBYm91dCBVc2VyIEdyb3Vwcx8ABURodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX1N0YXJ0VXNlckdyb3VwLnVnc3M/QWN0aXZlSUQ9NTMwOGRkAgIPZBYCAgEPDxYEHwQFCFZpZXcgQWxsHwAFR2h0dHA6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfVXNlckdyb3VwT3ZlcnZpZXcudWdzcz9BY3RpdmVJRD01MzA5ZGQCAw9kFgICAQ8PFgQfBAUsSW5mb3JtIEdyb3VwIExlYWRlciBhYm91dCBTdHVkZW50IFRlY2ggQ2x1YnMfAAVLaHR0cDovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19JbmZvcm1Vc2VyR3JvdXBMZWFkZXIudWdzcz9BY3RpdmVJRD01MzEwZGQCBA9kFgICAQ8PFgQfBAUIRmVlZGJhY2sfAAU+aHR0cDovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19GZWVkYmFjay51Z3NzP0FjdGl2ZUlEPTUzMTFkZAIBD2QWBAIBD2QWAgIBDw8WAh8EBRZGb3IgVXNlciBHcm91cCBMZWFkZXJzZGQCAw8WAh8DAgIWBGYPZBYCAgEPDxYEHwQFDkFkZCBVc2VyIEdyb3VwHwAFQmh0dHA6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfQWRkVXNlckdyb3VwLnVnc3M/QWN0aXZlSUQ9NTMx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bHVicy5jb20vYWNfQ29udGFjdC51Z3NzP0FjdGl2ZUlEPTUzMzFkZAIDD2QWAgIBDw8WBB8EBRRFZGl0IFVzZXIgR3JvdXAgRGF0YR8ABURodHRwczovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19FZGl0VXNlckdyb3VwLnVnc3M/QWN0aXZlSUQ9NTMzMmRkAgEPZBYEAgEPZBYCAgEPDxYCHwQFDFN0dWR5IEdyb3Vwc2RkAgMPFgIfAwICFgRmD2QWAgIBDw8WBB8EBRJBYm91dCBTdHVkeSBHcm91cHMfAAVGaHR0cDovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19BYm91dFN0dWR5R3JvdXBzLnVnc3M/QWN0aXZlSUQ9NTMzNWRkAgEPZBYCAgEPDxYEHwQFE0FkZCBOZXcgU3R1ZHkgR3JvdXAfAAVEaHR0cHM6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfQWRkU3R1ZHlHcm91cC51Z3NzP0FjdGl2ZUlEPTUzMzZkZAICD2QWBAIBD2QWAgIBDw8WAh8EBQdNZW1iZXJzZGQCAw8WAh8DAgQWCGYPZBYCAgEPDxYIHwQFEU1lbWJlciBNYW5hZ2VtZW50HwAFRGh0dHBzOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX01lbWJlck1hbmFnZXIudWdzcz9BY3RpdmVJRD01MzM5HwUFBmFjdGl2ZR8GAgJkZAIBD2QWAgIBDw8WBB8EBQ5BZGQgTmV3IE1lbWJlch8ABUBodHRwczovL3d3dy5zdHVkZW50dGVjaGNsdWJzLmNvbS9hY19NZW1iZXJBZGQudWdzcz9BY3RpdmVJRD01MzQwZGQCAg9kFgICAQ8PFgQfBAUYSW1wb3J0IE1lbWJlcnMgZnJvbSBGaWxlHwAFRmh0dHBzOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX1VHTWVtYmVyc0ltcG9ydC51Z3NzP0FjdGl2ZUlEPTUzNDFkZAIDD2QWAgIBDw8WBB8EBQ9Db250YWN0IE1lbWJlcnMfAAVFaHR0cHM6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfQ29udGFjdE1lbWJlcnMudWdzcz9BY3RpdmVJRD01MzQyZGQCAw9kFgQCAQ9kFgICAQ8PFgIfBAUGRXZlbnRzZGQCAw8WAh8DAgIWBGYPZBYCAgEPDxYEHwQFEVVzZXIgR3JvdXAgRXZlbnRzHwAFQmh0dHA6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfVUdFdmVudHNMaXN0LnVnc3M/QWN0aXZlSUQ9NTM0NGRkAgEPZBYCAgEPDxYEHwQFDUFkZCBOZXcgRXZlbnQfAAVBaHR0cHM6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfVUdFdmVudE5ldy51Z3NzP0FjdGl2ZUlEPTUzNDVkZAIED2QWBAIBD2QWAgIBDw8WAh8EBQVQb2xsc2RkAgMPFgIfAwICFgRmD2QWAgIBDw8WBB8EBQ9Qb2xsIE1hbmFnZW1lbnQfAAVCaHR0cHM6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfUG9sbE1hbmFnZXIudWdzcz9BY3RpdmVJRD01MzQ3ZGQCAQ9kFgICAQ8PFgQfBAUMQWRkIE5ldyBQb2xsHwAFP2h0dHBzOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX1BvbGxFZGl0LnVnc3M/QWN0aXZlSUQ9NTM0OGRkAgUPZBYEAgEPZBYCAgEPDxYCHwQFCFNwb25zb3JzZGQCAw8WAh8DAgIWBGYPZBYCAgEPDxYEHwQFE1VzZXIgR3JvdXAgU3BvbnNvcnMfAAVJaHR0cHM6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfU3BvbnNvcnNVR092ZXJ2aWV3LnVnc3M/QWN0aXZlSUQ9NTM1MGRkAgEPZBYCAgEPDxYEHwQFIlJlcXVlc3QgU3BvbnNvcnNoaXAgZm9yIFVzZXIgR3JvdXAfAAVSaHR0cHM6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfUmVxdWVzdFVzZXJncm91cFNwb25zb3JzaGlwLnVnc3M/QWN0aXZlSUQ9NTM1MWRkAgYPZBYEAgEPZBYCAgEPDxYCHwQFCFNwZWFrZXJzZGQCAw8WAh8DAgEWAmYPZBYCAgEPDxYEHwQFE1VzZXIgR3JvdXAgU3BlYWtlcnMfAAVJaHR0cHM6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfU3BlYWtlcnNVR092ZXJ2aWV3LnVnc3M/QWN0aXZlSUQ9NTM1M2RkAg8PZBYCAgEPFgIfAwIDFgZmD2QWBAIBDw8WBB8EBQpDb250YWN0IFVzHwAFP2h0dHA6Ly93d3cuc3R1ZGVudHRlY2hjbHVicy5jb20vYWNfQ29udGFjdFVzLnVnc3M/QWN0aXZlSUQ9NTM2OWRkAgIPFgIfBAUDIHwgZAIBD2QWBAIBDw8WBB8EBRFQcml2YWN5IFN0YXRlbWVudB8ABUZodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX1ByaXZhY3lTdGF0ZW1lbnQudWdzcz9BY3RpdmVJRD01MzcwZGQCAg8WAh8EBQMgfCBkAgIPZBYCAgEPDxYEHwQFDFRlcm1zIE9mIFVzZR8ABUJodHRwOi8vd3d3LnN0dWRlbnR0ZWNoY2x1YnMuY29tL2FjX1Rlcm1zX29mX3VzZS51Z3NzP0FjdGl2ZUlEPTUzNzFkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUfaGVhZGVyJHNtYWxsc2VhcmNoJHNlYXJjaEJ1dHRvbjM0k2lsH3e7nnfqDBfx2cji2DDE" type="hidden">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="frats_files/WebResource.js" type="text/javascript"></script>
+
+<script src="frats_files/General.js" type="text/javascript"></script>
+<script src="frats_files/ScriptResource.js" type="text/javascript"></script>
+<script src="frats_files/ScriptResource_002.js" type="text/javascript"></script>
+<script src="frats_files/ScriptResource_003.axd" type="text/javascript"></script>
+<script src="frats_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="frats_files/ScriptResource_006.axd" type="text/javascript"></script>
+<script src="frats_files/ScriptResource_004.axd" type="text/javascript"></script>
+<script src="frats_files/ScriptResource_005.axd" type="text/javascript"></script>
+<script src="frats_files/ScriptResource_002.axd" type="text/javascript"></script>
+<script src="frats_files/ScriptResource_007.axd" type="text/javascript"></script>
+      <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', document.getElementById('form1'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+
+      
+	<script type="text/javascript">
+	actionUrl = document.forms[0].action; 
+	Sys.WebForms.PageRequestManager.getInstance().add_endRequest(restoreFormAction);
+	function restoreFormAction(sender, args) 
+	{
+		document.forms[0].action = actionUrl; 
+		document.forms[0]._initialAction = actionUrl;
+	}
+	</script>
+      
+        <div class="wrapper">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" height="100%">
+                <!--Header-->
+                
+<tbody><tr><td id="header_headerTD" class="header">
+        <table style="height: 100%;" width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td rowspan="2" class="logo"></td>
+                
+
+<td class="topnavigation">
+    <a id="header_topnavigation_rssTextButton" class="rss_icon_button" href="https://www.studenttechclubs.com/ac_RSSFeedPage.ugss">RSS</a>
+    
+            <a id="header_topnavigation_navigationRepeater_ctl00_navigationHyperlink" href="http://www.studenttechclubs.com/ac_MyProfile.ugss?ActiveID=5275">My Profile</a> | 
+        
+            <a id="header_topnavigation_navigationRepeater_ctl01_navigationHyperlink" href="http://www.studenttechclubs.com/ac_Search.ugss?ActiveID=5287">Search</a> | 
+        
+            <a id="header_topnavigation_navigationRepeater_ctl02_navigationHyperlink" href="http://www.studenttechclubs.com/ac_FAQ.ugss?ActiveID=5288">FAQ</a> | 
+        
+            <a id="header_topnavigation_navigationRepeater_ctl03_navigationHyperlink" href="http://www.studenttechclubs.com/ac_HelpContent.ugss?ActiveID=5289">Help</a> | 
+        
+            <a id="header_topnavigation_navigationRepeater_ctl04_navigationHyperlink" href="http://www.studenttechclubs.com/ac_ContactUs.ugss?ActiveID=5301">Contact</a>
+        
+</td>
+            </tr>
+            <tr>
+                
+
+<td class="headersearch">
+    <div id="header_smallsearch_headerSearch" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'header_smallsearch_searchButton')">
+	
+    <table class="smallsearch" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td>
+                <input name="header$smallsearch$searchTextBox" maxlength="200" id="header_smallsearch_searchTextBox" class="smallsearch_input" type="text"><input name="header$smallsearch$searchButton" id="header_smallsearch_searchButton" class="smallsearch_button" src="frats_files/search.gif" style="border-style: none; border-width: 0px; height: 13px; width: 18px;" align="absmiddle" type="image">
+            </td>
+         </tr>
+    </tbody></table>
+    
+</div>
+</td>
+
+        
+            </tr>
+            <tr>
+                <td colspan="2" style="vertical-align: bottom;">
+                    <table style="vertical-align: bottom;" border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td style="width: 100%; height: 27px;">
+                                <!-- Navigation Row -->
+                                
+<!-- Navigation Row -->
+<table class="navigation" border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+        
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl00_leftPanel" class="left">
+	<a id="header_headernavigation_navigationRepeater_ctl00_navigationHyperlink" href="http://www.studenttechclubs.com/MyStudentTechClubs.ugss?ActiveID=5303">My Student Clubs</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl00_rightPanel" class="right">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl01_leftPanel" class="leftactive">
+	<a id="header_headernavigation_navigationRepeater_ctl01_navigationHyperlink" href="http://www.studenttechclubs.com/ac_UserGroupOverview.ugss?ActiveID=5304">User Groups</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl01_rightPanel" class="rightactive">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl02_leftPanel" class="left">
+	<a id="header_headernavigation_navigationRepeater_ctl02_navigationHyperlink" href="http://www.studenttechclubs.com/ac_SpeakerRegistry.ugss?ActiveID=5354">Speakers</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl02_rightPanel" class="right">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl03_leftPanel" class="left">
+	<a id="header_headernavigation_navigationRepeater_ctl03_navigationHyperlink" href="http://www.studenttechclubs.com/ac_UpcomingEvents.ugss?ActiveID=5362">Events Calendar</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl03_rightPanel" class="right">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl04_leftPanel" class="left">
+	<a id="header_headernavigation_navigationRepeater_ctl04_navigationHyperlink" href="http://www.studenttechclubs.com/ac_RecordedEvents.ugss?ActiveID=5363">Recorded Events</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl04_rightPanel" class="right">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl05_leftPanel" class="left">
+	<a id="header_headernavigation_navigationRepeater_ctl05_navigationHyperlink" href="http://www.studenttechclubs.com/ac_News.ugss?ActiveID=5364">News</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl05_rightPanel" class="right">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl06_leftPanel" class="left">
+	<a id="header_headernavigation_navigationRepeater_ctl06_navigationHyperlink" href="http://www.studenttechclubs.com/ac_Forums.ugss?ActiveID=5365">Forums</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl06_rightPanel" class="right">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl07_leftPanel" class="left">
+	<a id="header_headernavigation_navigationRepeater_ctl07_navigationHyperlink" href="http://www.studenttechclubs.com/ac_Blogs.ugss?ActiveID=5366">Blogs</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl07_rightPanel" class="right">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+                <td>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td class="navitem" nowrap="nowrap">
+                                <div id="header_headernavigation_navigationRepeater_ctl08_leftPanel" class="left">
+	<a id="header_headernavigation_navigationRepeater_ctl08_navigationHyperlink" href="http://www.studenttechclubs.com/ac_Community.ugss?ActiveID=5367">Community</a>
+</div>
+                            </td>
+                            <td class="navitem">
+                                <div id="header_headernavigation_navigationRepeater_ctl08_rightPanel" class="right">
+	&nbsp;
+</div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            
+    </tr>
+</tbody></table>
+<!-- Navigation Row END -->
+                             
+                            </td>
+                            <td class="bookmark" width="150" align="right" height="27">
+                                <!-- Navigation Row -->
+                                
+
+
+<div id="header_bookmarkscontrol_ButtonPanel">
+	
+    <table width="150" cellpadding="0" cellspacing="0">
+    <tbody><tr align="left">
+        <td id="header_bookmarkscontrol_bookmarkCell" class="bookmark_button"><span id="header_bookmarkscontrol_bookmarkButtonLabel">Bookmarks</span></td>
+	
+    </tr>
+    </tbody></table>
+
+</div>
+
+<div id="header_bookmarkscontrol_PopupPanel" class="popupMenu" style="display: none; position: absolute;">
+	
+    
+   
+<table class="bookmark_layer" border="0" cellpadding="0" cellspacing="0" height="100%">
+    <tbody><tr>
+        <td valign="top" align="left">
+        
+            <div id="header_bookmarkscontrol_popupContentControl_loggedInUserPanel">
+		            
+                <div class="bookmark_text">
+                    <a id="header_bookmarkscontrol_popupContentControl_editBookmarksHyperLink" href="https://www.studenttechclubs.com/ac_Bookmarks.ugss" target="_top">Edit Bookmarks</a>
+                </div>
+                <div class="bookmark_items">
+                    
+                </div>                    
+            
+	</div> 
+               
+            
+            
+          
+                
+            <div class="bookmark_items">
+                <img src="frats_files/folder_icon.gif"> <span>Recommended</span><br>
+                
+                        <a id="header_bookmarkscontrol_popupContentControl_recommendedRepeater_ctl00_headLineHyperLink" title="Microsoft Student Partners" class="bookmark_small" href="https://www.studenttechclubs.com/Redirect.aspx?ElementID=1707&amp;ElementType=54&amp;UrlReferer=http%3a%2f%2fwww.student-partners.com%2f" target="_new">Microsoft Stu...</a><br>
+                    
+                        <a id="header_bookmarkscontrol_popupContentControl_recommendedRepeater_ctl01_headLineHyperLink" title="Student Experience" class="bookmark_small" href="https://www.studenttechclubs.com/Redirect.aspx?ElementID=1706&amp;ElementType=54&amp;UrlReferer=http%3a%2f%2fwww.microsoft.com%2fstudents" target="_new">Student Exper...</a><br>
+                    
+                        <a id="header_bookmarkscontrol_popupContentControl_recommendedRepeater_ctl02_headLineHyperLink" title="Channel 8" class="bookmark_small" href="https://www.studenttechclubs.com/Redirect.aspx?ElementID=1704&amp;ElementType=54&amp;UrlReferer=http%3a%2f%2fchannel8.msdn.com%2f" target="_new">Channel 8</a><br>
+                    
+             </div>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+</div>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+</td>
+</tr>
+
+                <!--Header End-->
+                <!-- Content -->
+                <tr>
+                    <td class="greybalk">
+                        <span id="loginState_helloControl_helloLabel">Hello, </span><span id="loginState_helloControl_loginNameLabel">Nitish!</span>
+&nbsp;<a id="loginState_logoutControl_loginStateLinkButton" href="javascript:__doPostBack('loginState$logoutControl$loginStateLinkButton','')">[Logout]</a>
+ 
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="structur" valign="top">
+                        
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+		
+		<!-- 1st column-->
+        <td class="threeColumn-1st">
+            
+    <div>
+    
+        <div class="boxheader">
+        
+            <div class="left">
+                <span id="ctl01_lblTitle">User Groups</span>
+            </div>
+            
+            <div class="right">
+            </div>
+            
+        </div>
+        
+        <div style="clear: both;">
+        </div>
+        
+        <div class="boxborder">                    
+            
+            
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl01_groupRepeater_ctl00_naviRepeater_ctl00_naviLink" href="http://www.studenttechclubs.com/ac_AboutUserGroups.ugss?ActiveID=5307">About Student Tech Clubs</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl01_groupRepeater_ctl00_naviRepeater_ctl01_naviLink" href="http://www.studenttechclubs.com/ac_StartUserGroup.ugss?ActiveID=5308">About User Groups</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl01_groupRepeater_ctl00_naviRepeater_ctl02_naviLink" href="http://www.studenttechclubs.com/ac_UserGroupOverview.ugss?ActiveID=5309">View All</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl01_groupRepeater_ctl00_naviRepeater_ctl03_naviLink" href="http://www.studenttechclubs.com/ac_InformUserGroupLeader.ugss?ActiveID=5310">Inform Group Leader about Student Tech Clubs</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl01_groupRepeater_ctl00_naviRepeater_ctl04_naviLink" href="http://www.studenttechclubs.com/ac_Feedback.ugss?ActiveID=5311">Feedback</a>
+                    </div>
+                
+            </div>
+            
+            <div id="ctl01_groupRepeater_ctl01_headlinePanel">
+	
+                <br>
+                <span id="ctl01_groupRepeater_ctl01_headlineLabel" class="greyheadline" style="display: block;">For User Group Leaders</span>
+            
+</div>
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl01_groupRepeater_ctl01_naviRepeater_ctl00_naviLink" href="http://www.studenttechclubs.com/ac_AddUserGroup.ugss?ActiveID=5313">Add User Group</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl01_groupRepeater_ctl01_naviRepeater_ctl01_naviLink" href="https://www.studenttechclubs.com/ac_PrivilegedUGInformation.ugss?ActiveID=5314">Manage your User Group</a>
+                    </div>
+                
+            </div>
+            
+            <div id="ctl01_groupRepeater_ctl02_headlinePanel">
+	
+                <br>
+                <span id="ctl01_groupRepeater_ctl02_headlineLabel" class="greyheadline" style="display: block;">For Sponsors</span>
+            
+</div>
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl01_groupRepeater_ctl02_naviRepeater_ctl00_naviLink" href="https://www.studenttechclubs.com/ac_SponsorRegistration.ugss?ActiveID=5316">Register as Sponsor</a>
+                    </div>
+                
+            </div>
+            
+       </div>
+       
+   </div>
+                                    
+        </td>
+        
+        <!-- 2nd column-->
+        <td class="threeColumn-2nd">
+            <div id="hideMessagePanel">
+	
+			    
+
+
+
+    <div class="boxheader">
+        <span id="ctl02_Label1" class="left">User Group Members</span>
+        <div class="right">
+        </div>
+    </div>
+    <div style="clear: both;">
+    </div>
+    
+    <div id="ctl02_borderPanel" class="boxborder">
+		
+    
+        <div class="boxcontent">
+            <table width="100%" border="0" cellpadding="1" cellspacing="0">
+            
+                <tbody><tr id="ctl02_row">
+			<td>
+                        <span id="ctl02_Label2" class="headline">Username</span>
+                   </td>
+			<td>
+                        <span id="ctl02_Label3" class="headline">First Name</span>
+                   </td>
+			<td>
+                        <span id="ctl02_Label4" class="headline">Last Name</span>
+                   </td>
+			<td>
+                        <span id="ctl02_Label5" class="headline">E-Mail</span>
+                   </td>
+			<td>
+                        &nbsp;
+                   </td>
+		</tr>
+		
+                
+                
+                    
+                <tr id="ctl02_memberRepeater_ctl00_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl00_hlUsername">smartsuja001</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl00_lblFirstName">Sujata</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl00_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl00_lblEmail">smartsuja001@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl00$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove smartsuja001 from the member list?');" id="ctl02_memberRepeater_ctl00__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl00$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl00__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl01_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl01_hlUsername">rut.390</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl01_lblFirstName">Ruta</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl01_lblLastName">Borkar</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl01_lblEmail">rut.390@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl01$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove rut.390 from the member list?');" id="ctl02_memberRepeater_ctl01__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl01$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl01__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl02_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl02_hlUsername">amitchhajer</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl02_lblFirstName">Amit</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl02_lblLastName">Chhajer</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl02_lblEmail">amitchhajer@live.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl02$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove amitchhajer from the member list?');" id="ctl02_memberRepeater_ctl02__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl02$_btnSetLeader" value="Remove from Co-Leads" id="ctl02_memberRepeater_ctl02__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl03_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl03_hlUsername">kartikvishu</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl03_lblFirstName">Vishu</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl03_lblLastName">Kartik</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl03_lblEmail">kartikvishu@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl03$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove kartikvishu from the member list?');" id="ctl02_memberRepeater_ctl03__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl03$_btnSetLeader" value="Remove from Co-Leads" id="ctl02_memberRepeater_ctl03__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl04_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl04_hlUsername">nitish.rajguru</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl04_lblFirstName">Nitish</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl04_lblLastName">Rajguru</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl04_lblEmail">nitish.rajguru@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl05_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl05_hlUsername">aviralshah</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl05_lblFirstName">Aviral</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl05_lblLastName">Shah</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl05_lblEmail">aviralshah@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl05$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove aviralshah from the member list?');" id="ctl02_memberRepeater_ctl05__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl05$_btnSetLeader" value="Remove from Co-Leads" id="ctl02_memberRepeater_ctl05__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl06_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl06_hlUsername">mohithardikar90</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl06_lblFirstName">Mohit</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl06_lblLastName">Hardikar</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl06_lblEmail">mohithardikar90@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl06$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove mohithardikar90 from the member list?');" id="ctl02_memberRepeater_ctl06__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl06$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl06__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl07_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl07_hlUsername">snehayv2003@yahoo.co.in</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl07_lblFirstName">Sneha</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl07_lblLastName">Venkatesh</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl07_lblEmail">snehayv2003@yahoo.co.in</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl07$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove snehayv2003@yahoo.co.in from the member list?');" id="ctl02_memberRepeater_ctl07__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl07$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl07__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl08_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl08_hlUsername">panrathi</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl08_lblFirstName">Pankaj</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl08_lblLastName">Rathi</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl08_lblEmail">panrathi@rediffmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl08$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove panrathi from the member list?');" id="ctl02_memberRepeater_ctl08__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl08$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl08__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl09_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl09_hlUsername">rasik_pansare</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl09_lblFirstName">Rasik</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl09_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl09_lblEmail">rasik_pansare@yahoo.co.in</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl09$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove rasik_pansare from the member list?');" id="ctl02_memberRepeater_ctl09__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl09$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl09__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl10_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl10_hlUsername">mahinsheth</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl10_lblFirstName">Mahin</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl10_lblLastName">Sheth</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl10_lblEmail">mahinsheth@yahoo.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl10$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove mahinsheth from the member list?');" id="ctl02_memberRepeater_ctl10__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl10$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl10__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl11_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl11_hlUsername">chetal.patil</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl11_lblFirstName">Chetal</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl11_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl11_lblEmail">chetal.patil@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl11$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove chetal.patil from the member list?');" id="ctl02_memberRepeater_ctl11__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl11$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl11__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl12_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl12_hlUsername">deshpande.kaivalya90</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl12_lblFirstName">Kaivalya</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl12_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl12_lblEmail">deshpande.kaivalya90@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl12$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove deshpande.kaivalya90 from the member list?');" id="ctl02_memberRepeater_ctl12__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl12$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl12__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl13_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl13_hlUsername">mohsin221</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl13_lblFirstName">Mohsin</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl13_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl13_lblEmail">mohsin221@yahoo.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl13$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove mohsin221 from the member list?');" id="ctl02_memberRepeater_ctl13__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl13$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl13__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl14_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl14_hlUsername">shashankguptapid</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl14_lblFirstName">Shashank</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl14_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl14_lblEmail">shashankguptapid@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl14$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove shashankguptapid from the member list?');" id="ctl02_memberRepeater_ctl14__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl14$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl14__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl15_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl15_hlUsername">mridulbirla</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl15_lblFirstName">Mridul</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl15_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl15_lblEmail">mridulbirla@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl15$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove mridulbirla from the member list?');" id="ctl02_memberRepeater_ctl15__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl15$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl15__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl16_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl16_hlUsername">uchit.champ</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl16_lblFirstName">Uchit</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl16_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl16_lblEmail">uchit.champ@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl16$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove uchit.champ from the member list?');" id="ctl02_memberRepeater_ctl16__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl16$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl16__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl17_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl17_hlUsername">sisodiaparamveer</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl17_lblFirstName">Paramveer</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl17_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl17_lblEmail">sisodiaparamveer@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl17$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove sisodiaparamveer from the member list?');" id="ctl02_memberRepeater_ctl17__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl17$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl17__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl18_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl18_hlUsername">priyankapatil2406</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl18_lblFirstName">Priyanka</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl18_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl18_lblEmail">priyankapatil2406@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl18$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove priyankapatil2406 from the member list?');" id="ctl02_memberRepeater_ctl18__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl18$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl18__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl19_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl19_hlUsername">blue22rosy</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl19_lblFirstName">Ragini</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl19_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl19_lblEmail">blue22rosy@yahoo.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl19$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove blue22rosy from the member list?');" id="ctl02_memberRepeater_ctl19__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl19$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl19__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl20_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl20_hlUsername">mailto_rucha</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl20_lblFirstName">Rucha</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl20_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl20_lblEmail">mailto_rucha@yahoo.in</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl20$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove mailto_rucha from the member list?');" id="ctl02_memberRepeater_ctl20__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl20$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl20__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl21_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl21_hlUsername">rah2220</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl21_lblFirstName">Rahila</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl21_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl21_lblEmail">rah2220@yahoo.co.in</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl21$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove rah2220 from the member list?');" id="ctl02_memberRepeater_ctl21__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl21$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl21__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl22_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl22_hlUsername">raviraj_j</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl22_lblFirstName">Raviraj</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl22_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl22_lblEmail">raviraj_j@yahoo.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl22$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove raviraj_j from the member list?');" id="ctl02_memberRepeater_ctl22__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl22$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl22__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl23_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl23_hlUsername">ajkrish89</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl23_lblFirstName">Ajay</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl23_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl23_lblEmail">ajkrish89@yahoo.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl23$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove ajkrish89 from the member list?');" id="ctl02_memberRepeater_ctl23__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl23$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl23__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl24_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl24_hlUsername">kapiltekwani</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl24_lblFirstName">kapil</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl24_lblLastName">tekwani</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl24_lblEmail">kapiltekwani@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl24$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove kapiltekwani from the member list?');" id="ctl02_memberRepeater_ctl24__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl24$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl24__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl25_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl25_hlUsername">thatsme.shilpa</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl25_lblFirstName">shilpa</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl25_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl25_lblEmail">thatsme.shilpa@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl25$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove thatsme.shilpa from the member list?');" id="ctl02_memberRepeater_ctl25__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl25$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl25__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl26_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl26_hlUsername">vasudhamahajan</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl26_lblFirstName">vasudha</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl26_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl26_lblEmail">vasudhamahajan@yahoo.co.in</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl26$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove vasudhamahajan from the member list?');" id="ctl02_memberRepeater_ctl26__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl26$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl26__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl27_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl27_hlUsername">amrutaasonawane</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl27_lblFirstName">amruta</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl27_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl27_lblEmail">amrutaasonawane@yahoo.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl27$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove amrutaasonawane from the member list?');" id="ctl02_memberRepeater_ctl27__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl27$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl27__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl28_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl28_hlUsername">pagarutkarsha</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl28_lblFirstName">utkarsha</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl28_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl28_lblEmail">pagarutkarsha@yahoo.in</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl28$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove pagarutkarsha from the member list?');" id="ctl02_memberRepeater_ctl28__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl28$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl28__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl29_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl29_hlUsername">aanchalonline</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl29_lblFirstName">aanchal</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl29_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl29_lblEmail">aanchalonline@yahoo.co.in</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl29$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove aanchalonline from the member list?');" id="ctl02_memberRepeater_ctl29__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl29$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl29__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl30_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl30_hlUsername">vibhore_miglani</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl30_lblFirstName">vibhore</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl30_lblLastName">miglani</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl30_lblEmail">vibhorevicky@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl30$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove vibhore_miglani from the member list?');" id="ctl02_memberRepeater_ctl30__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl30$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl30__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl31_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl31_hlUsername">aka.anksha</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl31_lblFirstName">akansha</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl31_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl31_lblEmail">aka.anksha@rediff.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl31$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove aka.anksha from the member list?');" id="ctl02_memberRepeater_ctl31__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl31$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl31__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl32_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl32_hlUsername">pritibisht17</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl32_lblFirstName">priti</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl32_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl32_lblEmail">pritibisht17@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl32$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove pritibisht17 from the member list?');" id="ctl02_memberRepeater_ctl32__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl32$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl32__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl33_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl33_hlUsername">vaidyasmriti</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl33_lblFirstName">smriti</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl33_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl33_lblEmail">vaidyasmriti@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl33$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove vaidyasmriti from the member list?');" id="ctl02_memberRepeater_ctl33__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl33$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl33__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl34_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl34_hlUsername">meetpadma.k</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl34_lblFirstName">padmavathi</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl34_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl34_lblEmail">meetpadma.k@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl34$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove meetpadma.k from the member list?');" id="ctl02_memberRepeater_ctl34__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl34$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl34__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl35_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl35_hlUsername">monica_orchids</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl35_lblFirstName">monica</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl35_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl35_lblEmail">monica_orchids@yahoo.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl35$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove monica_orchids from the member list?');" id="ctl02_memberRepeater_ctl35__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl35$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl35__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl36_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl36_hlUsername">chetansgawai</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl36_lblFirstName">chetan</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl36_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl36_lblEmail">chetansgawai@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl36$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove chetansgawai from the member list?');" id="ctl02_memberRepeater_ctl36__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl36$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl36__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl37_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl37_hlUsername">prachi.wakhare545</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl37_lblFirstName">prachi</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl37_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl37_lblEmail">prachi.wakhare545@gmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl37$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove prachi.wakhare545 from the member list?');" id="ctl02_memberRepeater_ctl37__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl37$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl37__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl38_row" class="grey">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl38_hlUsername">bshrutii</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl38_lblFirstName">shruti</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl38_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl38_lblEmail">bshrutii@yahoo.in</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl38$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove bshrutii from the member list?');" id="ctl02_memberRepeater_ctl38__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl38$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl38__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                    
+                <tr id="ctl02_memberRepeater_ctl39_row">
+			<td>
+                                <a id="ctl02_memberRepeater_ctl39_hlUsername">sweetpurva</a>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl39_lblFirstName">purva</span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl39_lblLastName"></span>
+                           </td>
+			<td>
+                                <span id="ctl02_memberRepeater_ctl39_lblEmail">sweetpurva@rediffmail.com</span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl39$_btnRemove" value="Remove" onclick="return confirm('Do you really want to remove sweetpurva from the member list?');" id="ctl02_memberRepeater_ctl39__btnRemove" type="submit">
+                                </span>
+                           </td>
+			<td>
+                                <span class="twin_smallbutton">
+                                    <input name="ctl02$memberRepeater$ctl39$_btnSetLeader" value="Set as Co-Lead" id="ctl02_memberRepeater_ctl39__btnSetLeader" style="width: 140px;" type="submit">
+                                </span>
+                           </td>
+		</tr>
+		
+                        
+                    
+                
+                <tr>
+                           <td>&nbsp;
+                           </td>
+                           <td>&nbsp;
+                           </td>
+                           <td>&nbsp;
+                           </td>
+                           <td>&nbsp;
+                           </td>
+                           <td>&nbsp;
+							</td>
+                </tr>
+                
+                <tr>
+                           
+                </tr>
+                
+                 <tr>
+                            <td colspan="6">
+                           <span class="twin_smallbutton">
+							<input name="ctl02$btnExtract" value="Export users list" id="ctl02_btnExtract" type="submit">
+							</span>
+							</td>
+                </tr>
+                
+            </tbody></table>
+        </div>
+    
+	</div>
+    
+    <div>
+     </div>
+
+
+
+			
+</div>
+			
+        </td>
+        
+        <!-- 3rd column-->
+        <td class="threeColumn-3rd">
+			
+    <div>
+    
+        <div class="boxheader">
+        
+            <div class="left">
+                <span id="ctl03_lblTitle">Group Activities</span>
+            </div>
+            
+            <div class="right">
+            </div>
+            
+        </div>
+        
+        <div style="clear: both;">
+        </div>
+        
+        <div class="boxborder">                    
+            
+            
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl00_naviRepeater_ctl00_naviLink" href="http://www.studenttechclubs.com/ac_UserGroupInformation.ugss?ActiveID=5329">The Colloquium Homepage</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl00_naviRepeater_ctl01_naviLink" href="http://www.studenttechclubs.com/ac_UserGroupEventContent.ugss?ActiveID=5330">User Group Event Content</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl00_naviRepeater_ctl02_naviLink" href="http://www.studenttechclubs.com/ac_Contact.ugss?ActiveID=5331">Contact User Group Leaders</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl00_naviRepeater_ctl03_naviLink" href="https://www.studenttechclubs.com/ac_EditUserGroup.ugss?ActiveID=5332">Edit User Group Data</a>
+                    </div>
+                
+            </div>
+            
+            <div id="ctl03_groupRepeater_ctl01_headlinePanel">
+	
+                <br>
+                <span id="ctl03_groupRepeater_ctl01_headlineLabel" class="greyheadline" style="display: block;">Study Groups</span>
+            
+</div>
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl01_naviRepeater_ctl00_naviLink" href="http://www.studenttechclubs.com/ac_AboutStudyGroups.ugss?ActiveID=5335">About Study Groups</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl01_naviRepeater_ctl01_naviLink" href="https://www.studenttechclubs.com/ac_AddStudyGroup.ugss?ActiveID=5336">Add New Study Group</a>
+                    </div>
+                
+            </div>
+            
+            <div id="ctl03_groupRepeater_ctl02_headlinePanel">
+	
+                <br>
+                <span id="ctl03_groupRepeater_ctl02_headlineLabel" class="greyheadline" style="display: block;">Members</span>
+            
+</div>
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl02_naviRepeater_ctl00_naviLink" class="active" href="https://www.studenttechclubs.com/ac_MemberManager.ugss?ActiveID=5339">Member Management</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl02_naviRepeater_ctl01_naviLink" href="https://www.studenttechclubs.com/ac_MemberAdd.ugss?ActiveID=5340">Add New Member</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl02_naviRepeater_ctl02_naviLink" href="https://www.studenttechclubs.com/ac_UGMembersImport.ugss?ActiveID=5341">Import Members from File</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl02_naviRepeater_ctl03_naviLink" href="https://www.studenttechclubs.com/ac_ContactMembers.ugss?ActiveID=5342">Contact Members</a>
+                    </div>
+                
+            </div>
+            
+            <div id="ctl03_groupRepeater_ctl03_headlinePanel">
+	
+                <br>
+                <span id="ctl03_groupRepeater_ctl03_headlineLabel" class="greyheadline" style="display: block;">Events</span>
+            
+</div>
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl03_naviRepeater_ctl00_naviLink" href="http://www.studenttechclubs.com/ac_UGEventsList.ugss?ActiveID=5344">User Group Events</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl03_naviRepeater_ctl01_naviLink" href="https://www.studenttechclubs.com/ac_UGEventNew.ugss?ActiveID=5345">Add New Event</a>
+                    </div>
+                
+            </div>
+            
+            <div id="ctl03_groupRepeater_ctl04_headlinePanel">
+	
+                <br>
+                <span id="ctl03_groupRepeater_ctl04_headlineLabel" class="greyheadline" style="display: block;">Polls</span>
+            
+</div>
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl04_naviRepeater_ctl00_naviLink" href="https://www.studenttechclubs.com/ac_PollManager.ugss?ActiveID=5347">Poll Management</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl04_naviRepeater_ctl01_naviLink" href="https://www.studenttechclubs.com/ac_PollEdit.ugss?ActiveID=5348">Add New Poll</a>
+                    </div>
+                
+            </div>
+            
+            <div id="ctl03_groupRepeater_ctl05_headlinePanel">
+	
+                <br>
+                <span id="ctl03_groupRepeater_ctl05_headlineLabel" class="greyheadline" style="display: block;">Sponsors</span>
+            
+</div>
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl05_naviRepeater_ctl00_naviLink" href="https://www.studenttechclubs.com/ac_SponsorsUGOverview.ugss?ActiveID=5350">User Group Sponsors</a>
+                    </div>
+                
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl05_naviRepeater_ctl01_naviLink" href="https://www.studenttechclubs.com/ac_RequestUsergroupSponsorship.ugss?ActiveID=5351">Request Sponsorship for User Group</a>
+                    </div>
+                
+            </div>
+            
+            <div id="ctl03_groupRepeater_ctl06_headlinePanel">
+	
+                <br>
+                <span id="ctl03_groupRepeater_ctl06_headlineLabel" class="greyheadline" style="display: block;">Speakers</span>
+            
+</div>
+            <div class="boxcontent">            
+            
+                    <div class="ug_item">
+                        <a id="ctl03_groupRepeater_ctl06_naviRepeater_ctl00_naviLink" href="https://www.studenttechclubs.com/ac_SpeakersUGOverview.ugss?ActiveID=5353">User Group Speakers</a>
+                    </div>
+                
+            </div>
+            
+       </div>
+       
+   </div>
+     
+        </td>
+        
+    </tr>                           
+</tbody></table>
+                    </td>
+                </tr>
+                <!-- Footer -->
+                <tr>
+                    
+
+<td class="footer"> 
+    
+            <a id="footer_navigationRepeater_ctl00_navigationHyperlink" href="http://www.studenttechclubs.com/ac_ContactUs.ugss?ActiveID=5369">Contact Us</a> | 
+        
+            <a id="footer_navigationRepeater_ctl01_navigationHyperlink" href="http://www.studenttechclubs.com/ac_PrivacyStatement.ugss?ActiveID=5370">Privacy Statement</a> | 
+        
+            <a id="footer_navigationRepeater_ctl02_navigationHyperlink" href="http://www.studenttechclubs.com/ac_Terms_of_use.ugss?ActiveID=5371">Terms Of Use</a>
+        <br>
+    <span>This site is hosted on behalf of Microsoft by </span><span id="footer_ax"><a href="http://www.axinom.com/">Axinom</a></span>.
+</td>
+                </tr>
+                <!-- Footer END -->
+            </tbody></table>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.HoverMenuBehavior, {"DynamicServicePath":"/ac_MemberManager.ugss","HoverCssClass":"popupHover","PopDelay":500,"PopupPosition":3,"id":"header_bookmarkscontrol_hme2","popupElement":$get("header_bookmarkscontrol_PopupPanel")}, null, null, $get("header_bookmarkscontrol_ButtonPanel"));
+});
+//]]>
+</script>
+</form>
+</body></html>

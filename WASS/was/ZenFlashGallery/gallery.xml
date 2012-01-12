@@ -1,0 +1,58 @@
+﻿<gallery>
+	<settings>
+		<frameSize>5</frameSize>
+		<frameColor>0xFFFFFF</frameColor>
+		<cornerRadius>7</cornerRadius>
+		<backgroundColor>0xFFFFFF</backgroundColor>
+		<initialState>Load Image</initialState>
+		<showCaption>Always</showCaption>
+		<captionBackgroundAlpha>41</captionBackgroundAlpha>
+		<captionBackgroundCornerRadius>6</captionBackgroundCornerRadius>
+		<buttonsBackgroundAlpha>41</buttonsBackgroundAlpha>
+		<buttonsBackgroundCornerRadius>6</buttonsBackgroundCornerRadius>
+		<showButtons>Always</showButtons>
+		<showAlbumsButton>true</showAlbumsButton>
+		<showThumbnailsButton>true</showThumbnailsButton>
+		<showSlideshowButton>true</showSlideshowButton>
+		<showNavigationButton>true</showNavigationButton>
+		<slideshowDelay>4</slideshowDelay>
+		<rotationDirection>Horizontal CW</rotationDirection>
+		<rotationDuration>600</rotationDuration>
+		<panelBackgroundAlpha>43</panelBackgroundAlpha>
+		<iconWidth>90</iconWidth>
+		<iconHeight>55</iconHeight>
+		<iconPadding>10</iconPadding>
+		<useRotation>true</useRotation>
+		<dropShadow>true</dropShadow>
+		<imageScaleMode>fill</imageScaleMode>
+
+		<overSound>sounds/over.mp3</overSound>
+		<clickSound>sounds/click.mp3</clickSound>
+	</settings>
+<albums>
+		<album icon="" thumbnailsFolder="icons/children/" imagesFolder="images/children/" description="Children">
+			<image name="1.jpg" description="" thumbnail="1.jpg"/>
+			<image name="2.jpg" description="" thumbnail="2.jpg"/>
+			<image name="3.jpg" description="" thumbnail="3.jpg"/>
+			<image name="4.jpg" description="" thumbnail="4.jpg"/>
+			<image name="5.jpg" description="" thumbnail="5.jpg"/>
+			<image name="6.jpg" description="" thumbnail="6.jpg"/>
+			<image name="7.jpg" description="" thumbnail="7.jpg"/>
+		</album>
+
+		<album icon="" thumbnailsFolder="icons/car/" imagesFolder="images/car/" description="Car">
+			<image name="1.jpg" description="" thumbnail="1.jpg"/>
+			<image name="2.jpg" description="" thumbnail="2.jpg"/>
+			<image name="3.jpg" description="" thumbnail="3.jpg"/>
+			<image name="4.jpg" description="" thumbnail="4.jpg"/>
+			<image name="5.jpg" description="" thumbnail="5.jpg"/>
+			<image name="6.jpg" description="" thumbnail="6.jpg"/>
+			<image name="7.jpg" description="" thumbnail="7.jpg"/>
+		</album>
+
+
+</albums>
+
+
+
+</gallery>

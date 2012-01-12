@@ -1,0 +1,33 @@
+.background
+{
+background-image:url(col-background.png);
+width:100%
+}
+.tflashjq{margin-top:0.5%;
+
+width:100%
+}
+.reg{ float:left;
+	text-align:right;
+	width:95%;
+	color:#000000;
+	
+ 
+}
+table.tbackground{
+margin-top:0.5%;
+
+width:100%
+}
+.menu{ width:100%;}
+.follow{margin-top:0px;}
+.sidespc{height:220px;}
+.down{  width:75%;}
+.down1{  width:80%; margin-left:1%}
+.flashdiv{ margin-left:0%; width:100%;}
+.shout{margin-top:20px; vertical-align:top;}
+.space{width:100%; height:25px; }
+.pgflash{ width:100%; height:300px;}
+img{ border: none; outline:none; }
+#last{height:5px;}
+a{text-decoration:none;}

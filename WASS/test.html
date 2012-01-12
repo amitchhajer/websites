@@ -1,0 +1,90 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html> 
+<head> 
+	<title>PICT Alumni | Login</title> 
+	<link rel="stylesheet" type="text/css" href="loginStyle.css" /> 
+	<link rel="stylesheet" type="text/css" href="dialog.css" /> 
+	<script src="jquery-1.4.2.min.js"></script> 
+	<script src="jquery-ui-1.8.4.custom.min.js"></script> 
+</head> 
+<script type="text/javascript"> 
+	$(document).ready(function() {
+		
+		
+		$('div.timepass').hover(function(){
+			$(this).stop().fadeTo('fast', 0.5 , function() {
+				//$(this).hide() //Hide the image after fade
+			});
+			} , function() { //on hover out...
+			//Fade the image to full opacity 
+				$(this).stop().fadeTo('fast', 1).show();
+			});
+		});
+		
+</script> 
+ 
+<script> 
+	function assignColors(){
+		document.getElementById('13').className='darkest';
+		document.getElementById('19').className='darkest';
+		//document.getElementById('25').className='darkest';
+		document.getElementById('27').className='darkest';
+		document.getElementById('5').className='darkest';
+		
+		//document.getElementById('6').className='light-dark';
+		document.getElementById('4').className='light-dark';
+		document.getElementById('18').className='light-dark';
+		document.getElementById('16').className='light-dark';
+		document.getElementById('26').className='light-dark';
+		
+		document.getElementById('3').className='lighter-dark';
+		document.getElementById('9').className='lighter-dark';
+		document.getElementById('11').className='lighter-dark';
+		//document.getElementById('20').className='lighter-dark';
+		document.getElementById('24').className='lighter-dark';
+		
+		document.getElementById('10').className='lightest-dark';
+		document.getElementById('23').className='lightest-dark';
+		document.getElementById('15').className='lightest-dark';
+		
+		
+		document.getElementById('1').className='lightest';
+		document.getElementById('7').className='lightest';
+		document.getElementById('21').className='lightest';
+		
+		//document.getElementById('22').className='lighter';
+		document.getElementById('17').className='lighter';
+		document.getElementById('8').className='lighter';
+		document.getElementById('12').className='lighter';
+	}
+	function assignContent(){
+		var element = document.getElementById('20');
+		element.innerHTML = '<span><img src="logo.png"/></span>';
+		element = document.getElementById('27');
+		element.innerHTML = '<span><img src="logo.png"/></span>';
+		element = document.getElementById('11');
+		element.innerHTML = '<span><img src="logo.png"/></span>';
+		element = document.getElementById('12');
+		element.innerHTML = '<span><img src="logo.png"/></span>';
+		
+		element = document.getElementById('23');
+		element.innerHTML = '<span><img src="logo.png"/></span>';
+		element = document.getElementById('15');
+		element.innerHTML = '<span><img src="logo.png"/></span>';
+		element = document.getElementById('14');
+		element.innerHTML = '<span><img src="logo.png"/></span>';
+		
+	}
+</script> 
+<body onload="assignColors();assignContent()"> 
+	
+	<div id="page"> 
+		<div id="load-dialog"></div> 
+		<div class="hiddenInViewSource"> 
+		<div id="left-pane"> 
+			<div class="timepass"><div id="0" class="boxes"></div></div><div class="timepass"><div id="1" class="boxes"></div></div><div class="timepass"><div id="2" class="boxes"></div></div><div class="timepass"><div id="3" class="boxes"></div></div><div class="timepass"><div id="4" class="boxes"></div></div><div class="timepass"><div id="5" class="boxes"></div></div><div class="timepass"><div id="6" class="boxes"></div></div><div class="timepass"><div id="7" class="boxes"></div></div><div class="timepass"><div id="8" class="boxes"></div></div><div class="timepass"><div id="9" class="boxes"></div></div><div class="timepass"><div id="10" class="boxes"></div></div><div class="timepass"><div id="11" class="boxes"></div></div><div class="timepass"><div id="12" class="boxes"></div></div><div class="timepass"><div id="13" class="boxes"></div></div><div class="timepass"><div id="14" class="boxes"></div></div><div class="timepass"><div id="15" class="boxes"></div></div><div class="timepass"><div id="16" class="boxes"></div></div><div class="timepass"><div id="17" class="boxes"></div></div><div class="timepass"><div id="18" class="boxes"></div></div><div class="timepass"><div id="19" class="boxes"></div></div><div class="timepass"><div id="20" class="boxes"></div></div><div class="timepass"><div id="21" class="boxes"></div></div><div class="timepass"><div id="22" class="boxes"></div></div><div class="timepass"><div id="23" class="boxes"></div></div><div class="timepass"><div id="24" class="boxes"></div></div><div class="timepass"><div id="25" class="boxes"></div></div><div class="timepass"><div id="26" class="boxes"></div></div><div class="timepass"><div id="27" class="boxes"><div id="28" class="boxes"><div id="29" class="boxes"></div></div>			<div class="clear"></div> 
+		</div> 
+
+</body>

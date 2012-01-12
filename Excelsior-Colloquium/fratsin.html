@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Scroll Horizontally</title>
+
+<script type="text/javascript" src="jquery-1.3.1.min.js"></script>
+<script type="text/javascript" src="jquery.scrollTo.js"></script>
+
+<script>
+
+$(document).ready(function() {
+
+	$('a.panel').click(function () {
+
+		$('a.panel').removeClass('selected');
+		$(this).addClass('selected');
+		
+		$('#wrapper').scrollTo($(this).attr('href'), 800);		
+		
+		return false;
+	});
+
+	
+});
+
+</script>
+
+<style>
+
+body {
+	height:100%;
+	width:100%;
+	margin:0;padding:0;
+}
+
+#wrapper {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;left:0;
+	
+	overflow:hidden;
+}
+
+	#mask {
+		width:500%;
+		height:100%;
+
+		
+	}
+
+	.item {
+		width:20%;
+		height:100%;
+		float:left;
+		
+	}
+	
+	
+	.content {
+		width:400px;
+		height:300px;
+		top:10%;
+		margin:0 auto; 
+		
+		position:relative;
+	}
+	
+	.selected {
+		
+		font-weight:1000;
+	}
+
+	.clear {
+		clear:both;
+	}
+
+</style>
+</head>
+
+<div id="wrapper">
+	<div id="mask">
+<div id="item1" class="item">
+			<a name="item1"></a>
+			<div class="content">
+			  <a href="#item1" class="panel"><b><font color="#FF0000">1</font></b></a> | <a href="#item2" class="panel">2</a> | <a href="#item3" class="panel">3</a> | <a href="#item4" class="panel">4</a> | <a href="#item5" class="panel">5</a>
+			  <pre><strong><font face="Geneva, Arial, Helvetica, sans-serif">     
+		Paramveer Singh Sisodia
+								
+		Priyanka Arun Patil
+					
+		Chaitanya Mauskar
+		
+		Kapil Tekwani
+		
+		Yash Kulkarni
+		
+		Rasik Pansare
+
+		Jitendra Dhikale
+		
+		Nikhil Chhajed
+		
+		Nachiket Kare
+		
+		Rohan Marwadi
+
+		
+			</font></strong></pre>
+		    </div>
+            
+           
+		</div>
+		
+		<div id="item2" class="item">
+			<a name="item2"></a>
+			<div class="content"><a href="#item1" class="panel">1</a> | <a href="#item2" class="panel"><b><font color="#FF0000">2</font></b></a> | <a href="#item3" class="panel">3</a> | <a href="#item4" class="panel">4</a> | <a href="#item5" class="panel">5</a>
+			  <pre><strong> <font face="Geneva, Arial, Helvetica, sans-serif">     
+		Bhatendu Bharti
+					
+		Rahila Syed
+								
+		Vashudha Mahajan
+					
+		Akshay Deshmukh
+		
+		Vaijnath Mulge
+		
+		Himanshu Kamat
+		
+		Maanvi Bhatia
+		
+		Sushant Mundankar
+		
+		Sagar Autade
+		
+		Siddhartha Banga
+						
+			</font></strong></pre>
+
+			</div>
+		</div>
+		
+		<div id="item3" class="item">
+			<a name="item3"></a>
+			<div class="content"><a href="#item1" class="panel">1</a> | <a href="#item2" class="panel">2</a> | <a href="#item3" class="panel"><font color="#FF0000"><b>3</b></font></a> | <a href="#item4" class="panel">4</a> | <a href="#item5" class="panel">5</a>
+			  <pre><strong> <font face="Geneva, Arial, Helvetica, sans-serif">     
+		Pooja Bhurhe
+	
+		Divya Lakshmi
+								
+		Anuja Wangnoo
+					
+		Ajinkya Salve
+		
+		Pushakar Gaikwad
+		
+		Anannya Mazumdar
+		
+		Shreya Dubey
+		
+		Ishwari Aghav
+		
+		Surabhi Mutha
+		
+		Rishabh Pandita
+						
+			</font></strong></pre>
+
+			</div>
+		</div>
+		
+		<div id="item4" class="item">
+			<a name="item4"></a>
+			<div class="content"><a href="#item1" class="panel">1</a> | <a href="#item2" class="panel">2</a> | <a href="#item3" class="panel">3</a> | <a href="#item4" class="panel"><font color="#FF0000"><b>4</b></font></a> | <a href="#item5" class="panel">5</a>
+			
+			  <pre><strong> <font face="Geneva, Arial, Helvetica, sans-serif">     
+		Amruta Sonwane
+							
+		Utkarsha Pagar
+								
+		Sukhani Kumar
+					
+		Divya Awatramani
+		
+		Ajay Nemade
+		
+		Swapnil Satpute
+		
+		Aashay Zajriya
+
+		Chaitanya Bhavsar
+		
+		Sonali Parekh
+		
+		Khushboo Patil
+						
+			</font></strong></pre>
+</div>
+		</div>
+		
+		<div id="item5" class="item">
+			<a name="item5"></a>
+			<div class="content"><a href="#item1" class="panel">1</a> | <a href="#item2" class="panel">2</a> | <a href="#item3" class="panel">3</a> | <a href="#item4" class="panel">4</a> | <a href="#item5" class="panel"><font color="#FF0000"><b>5</b></font></a>
+			
+			  <pre><strong>  <font face="Geneva, Arial, Helvetica, sans-serif">    
+		Rahul Rane
+
+		Anuja Kelkar
+		
+		Harikesh Vyas
+		
+		Aakash Kothawale
+		
+
+		
+		
+		
+		
+		<h2>Something from your side and you can be here.</h2>
+		
+						
+		</font>	</strong></pre>
+
+</div>
+		</div>
+
+	</div>
+
+</div>
+
+</body></html>

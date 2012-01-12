@@ -1,0 +1,211 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.5
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Sep 19, 2010 at 12:45 PM
+-- Server version: 5.1.44
+-- PHP Version: 5.3.2
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `test2`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `departments`
+--
+
+CREATE TABLE `departments` (
+  `departmentid` int(5) NOT NULL AUTO_INCREMENT,
+  `departmentname` text NOT NULL,
+  PRIMARY KEY (`departmentid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `departments`
+--
+
+INSERT INTO `departments` VALUES(1, 'Computer Science');
+INSERT INTO `departments` VALUES(2, 'Information Technology');
+INSERT INTO `departments` VALUES(3, 'Electronics and Telecomm.');
+INSERT INTO `departments` VALUES(4, 'ME - Computers');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `displaypicpath`
+--
+
+CREATE TABLE `displaypicpath` (
+  `id` int(5) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `imagepath` text NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `username` (`username`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `displaypicpath`
+--
+
+INSERT INTO `displaypicpath` VALUES(1, 'kaushal', 'kaushal.jpg');
+INSERT INTO `displaypicpath` VALUES(2, 'atin', 'atin.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `feed`
+--
+
+CREATE TABLE `feed` (
+  `feedid` int(5) NOT NULL AUTO_INCREMENT,
+  `username` varchar(25) NOT NULL,
+  `verbid` varchar(20) NOT NULL,
+  `feedTimestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`feedid`),
+  KEY `verbid` (`verbid`),
+  KEY `username` (`username`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `feed`
+--
+
+INSERT INTO `feed` VALUES(1, 'kaushal', 'join', '2010-09-19 11:38:31');
+INSERT INTO `feed` VALUES(2, 'atin', 'join', '2010-09-19 12:32:59');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `secretquestion`
+--
+
+CREATE TABLE `secretquestion` (
+  `questionid` int(5) NOT NULL AUTO_INCREMENT,
+  `question` text NOT NULL,
+  PRIMARY KEY (`questionid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `secretquestion`
+--
+
+INSERT INTO `secretquestion` VALUES(1, 'What is your Mother''s maiden name?');
+INSERT INTO `secretquestion` VALUES(2, 'What is your first School''s name?');
+INSERT INTO `secretquestion` VALUES(3, 'What is your Driver''s License number?');
+INSERT INTO `secretquestion` VALUES(4, 'What is your pet name?');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `shouts`
+--
+
+CREATE TABLE `shouts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `shoutby` varchar(50) DEFAULT NULL,
+  `shout` text,
+  PRIMARY KEY (`id`),
+  KEY `shoutby` (`shoutby`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=74 ;
+
+--
+-- Dumping data for table `shouts`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `username` varchar(50) NOT NULL,
+  `password` text NOT NULL,
+  `firstname` text NOT NULL,
+  `lastname` text,
+  `gender` text,
+  `classof` int(11) DEFAULT NULL,
+  `departmentid` int(5) NOT NULL,
+  `hometown` text,
+  `emailid` text,
+  `primaryphone` bigint(20) DEFAULT NULL,
+  `secondaryphone` bigint(20) DEFAULT NULL,
+  `admin` tinyint(4) DEFAULT NULL,
+  `aboutme` text,
+  `birthday` date DEFAULT NULL,
+  `currentcountry` text,
+  `currentcity` text,
+  `organization` text,
+  `jobposition` text,
+  `weblink` text NOT NULL,
+  `questionid` int(5) DEFAULT NULL,
+  `secretanswer` text,
+  PRIMARY KEY (`username`),
+  KEY `departmentid` (`departmentid`),
+  KEY `questionid` (`questionid`),
+  KEY `username` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` VALUES('atin', 'fcc3a23fc7232cc89c7cb0f23d8774fefb73d7dc2ab22e6a1b6b8b202b4dcc91', 'Kaushal', 'Agrawal', 'Male', 2010, 1, 'Hyderabad', 'kaushal.agrawal@oracle.com', 919642662525, 919642662525, 0, 'NULL', '0000-00-00', 'India', 'Hyderabad', 'NULL', 'NULL', 'NULL', 1, 'ccc');
+INSERT INTO `users` VALUES('kaushal', 'fcc3a23fc7232cc89c7cb0f23d8774fefb73d7dc2ab22e6a1b6b8b202b4dcc91', 'Kaushal', 'Agrawal', 'Male', 2009, 2, 'Hyderabad', 'kaushal.agrawal@oracle.com', 919642662525, 919642662525, 0, 'NULL', '0000-00-00', 'India', 'Hyderabad', 'NULL', 'NULL', 'NULL', 2, 'sunshine');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `verbs`
+--
+
+CREATE TABLE `verbs` (
+  `verbid` varchar(20) NOT NULL,
+  `action` text NOT NULL,
+  `verbimage` text NOT NULL,
+  PRIMARY KEY (`verbid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `verbs`
+--
+
+INSERT INTO `verbs` VALUES('join', 'is a part of Alumni Association.', 'join.jpg');
+INSERT INTO `verbs` VALUES('shout', 'shouted out through the Shout Box.', 'shout-icon.jpg');
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `displaypicpath`
+--
+ALTER TABLE `displaypicpath`
+  ADD CONSTRAINT `displaypicpath_ibfk_1` FOREIGN KEY (`username`) REFERENCES `users` (`username`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `feed`
+--
+ALTER TABLE `feed`
+  ADD CONSTRAINT `feed_ibfk_1` FOREIGN KEY (`verbid`) REFERENCES `verbs` (`verbid`) ON DELETE CASCADE,
+  ADD CONSTRAINT `feed_ibfk_2` FOREIGN KEY (`username`) REFERENCES `users` (`username`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `shouts`
+--
+ALTER TABLE `shouts`
+  ADD CONSTRAINT `shouts_ibfk_1` FOREIGN KEY (`shoutby`) REFERENCES `users` (`username`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `users`
+--
+ALTER TABLE `users`
+  ADD CONSTRAINT `users_ibfk_1` FOREIGN KEY (`departmentid`) REFERENCES `departments` (`departmentid`) ON DELETE CASCADE,
+  ADD CONSTRAINT `users_ibfk_2` FOREIGN KEY (`questionid`) REFERENCES `secretquestion` (`questionid`) ON DELETE CASCADE;

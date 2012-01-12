@@ -1,0 +1,136 @@
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+
+div#page{
+	width:770px;
+	height:300px;
+	margin:0 auto;
+	position:relative;
+	top:50%;
+	margin-top:-190px;
+	}div#page div#left-pane{
+		width:525px;
+		height:300px;
+		float:left;
+	}div#page div#right-pane{
+		width:230px;
+		height:300px;
+		float:right;
+	}div#page div#right-pane div#right-top-image{
+		height:143px;
+	}
+	
+div.boxes{
+	width:75px;
+	height:75px;
+	float:left;
+}
+
+.clear{
+	clear:both;
+}
+
+.darkest{
+	background-color:#066474;
+	width:75px;
+	height:75px;
+	float:left;
+}
+
+.light-dark{
+	background-color:#0193ae;
+	width:75px;
+	height:75px;
+	float:left;
+}
+
+.lighter-dark{
+	background-color:#4294a3;
+	width:75px;
+	height:75px;
+	float:left;
+}
+
+.lightest-dark{
+	background-color:#137889;
+	width:75px;
+	height:75px;
+	float:left;
+}
+
+.lightest{
+	background-color:#c4ebf2;
+	width:75px;
+	height:75px;
+	float:left;
+}
+
+.lighter{
+	background-color:#5ab4c5;
+	width:75px;
+	height:75px;
+	float:left;
+}
+
+
+
+div#right-pane div#login-area{
+	background-color:#f47700;
+	font-size:0.8em;
+	font-family:Tahoma,Geneva, sans-serif;
+	width:210px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:14px;
+	color:#ffc389;
+	margin-top:15px;
+}
+
+.textbox{
+	width:125px;
+}
+
+.left-column{
+	text-align:right;
+}
+
+.logButton{
+	position:relative;
+	left:150px;
+	top:4px;
+}
+
+div#sign-in{
+	background:url('../images/web/signin2.png') no-repeat;
+	height:41px;
+	position:relative;
+	left:-10px;
+	margin-bottom:10px;
+}
+
+.timepass{
+	width:75px;
+	height:75px;
+	float:left;
+}
+
+div#access-information p{
+	padding:0px;
+	margin:0px;
+	margin-top:10px;
+	color:gray;
+}
+
+div#access-information a{
+	color:#f47700;
+}

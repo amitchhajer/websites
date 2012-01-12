@@ -1,0 +1,17 @@
+﻿<application xmlns="http://ns.adobe.com/air/application/1.0">
+  <filename>register</filename>
+  <name>register</name>
+  <id>register</id>
+  <version>1</version>
+  <description/>
+  <copyright/>
+  <initialWindow>
+    <content>Page%201%2Ehtm</content>
+    <systemChrome>standard</systemChrome>
+    <visible>true</visible>
+    <transparent>false</transparent>
+    <width>600</width>
+    <height>500</height>
+  </initialWindow>
+  <icon/>
+</application>

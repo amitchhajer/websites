@@ -1,0 +1,33 @@
+   
+    # body {  
+     background:#eee2d2;  
+    font-size:12px;  
+     font-family:Arial;  
+ }  
+   
+ p {  
+     line-height:18px;  
+ }  
+   #container {  
+       width:960px;  
+       height:697px;  
+       background:transparent url(containerbg.png) no-repeat;  
+       margin:0 auto;  
+       position:relative;  
+   }  
+     
+   #cycle {  
+       width:610px;  
+       height:522px;  
+       float:left;  
+       position:absolute;  
+      top:99px;  
+   }  
+     
+   #content {  
+       width:310px;  
+       float:rightright;  
+       padding:0 20px;  
+       position:relative;  
+       top:240px;  
+   }  

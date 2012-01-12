@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>jQuery UI Tabs - Vertical Tabs functionality</title>
+	<link type="text/css" href="../../themes/base/ui.all.css" rel="stylesheet" />
+	<script type="text/javascript" src="../../jquery-1.3.2.js"></script>
+	<script type="text/javascript" src="../../ui/ui.core.js"></script>
+	<script type="text/javascript" src="../../ui/ui.tabs.js"></script>
+	<link type="text/css" href="../demos.css" rel="stylesheet" />
+	<script type="text/javascript">
+	$(function() {
+		$("#tabs").tabs().addClass('ui-tabs-vertical ui-helper-clearfix');
+		$("#tabs li").removeClass('ui-corner-top').addClass('ui-corner-left');
+		
+	});
+	</script>
+	<style type="text/css">
+	
+/* Vertical Tabs
+----------------------------------*/
+.ui-tabs-vertical { width: 55em; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+	</style>
+</head>
+<body>
+
+<div class="demo">
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">WEB-DEVELOPMENT</a></li>
+		<li><a href="#tabs-2">SOFTWARE DESIGNING</a></li>
+		<li><a href="#tabs-3">ROBOTICS and MECHANICS</a></li>
+		<li><a href="#tabs-4">NETWORKING</a></li>
+		<li><a href="#tabs-5">DESIGNING</a></li>
+	</ul>
+	<div id="tabs-1">
+		<h2>WEB Designing</h2>
+		<p>Here are few links which will help you if you are starting HTML and CSS</p>
+		<p><a href="http://www.w3schools.com" >HTML and CSS @ w3schools</a><p>
+		<p><a href="http://htmlbasics.webzila.com/?wz=intro" > HTML @ Webzilla</a></p>
+		<p> Working in flash and have doubts?? Check these pages</p>
+		<p><a href="http://www.tutorialized.com/tutorials/Flash/Getting-Started/1"> Flash Basics</a></p>
+		<p><a href="http://www.tutorialized.com/tutorials/Flash/1"> More on Flash</a></p>
+		<p> Action Script Language your Flash 8 Understand</p>
+		<p><a href="Flash 8 ActionScript Bible~tqw~_darksiderg.pdf">Book on Action Script 2.0</a></p> 
+		<p> We like to work on jQuery and the basics of JAVASCRIPT,PHP and SQL will be starting soon. Keep watching updates</p>
+		<p> Still doubt on any new software or language contact:</p>
+		<p> <a href="reachus.html">WEB Team</a></p>
+	</div>
+	<div id="tabs-2">
+		<h2>SOFTWARE Designing </h2>
+		<p> Quick designing and making Windows Application</p>
+		<p><a href="O'Reilly - Programming .NET Windows Applications.chm">.Net Windows application in C# and VB</a></p>
+		<p> Intrested in game development</p>
+		<p><a href="Beginning XNA 2.0 Game Programming From Novice to Professional.pdf"> XNA and C#</a></p>
+	</div>
+	<div id="tabs-3">
+		<h2>ROBOTICS</h2>
+		<img src="const.gif">
+		<p>Keep watching this space for updates!!</p>
+	</div>
+	<div id="tabs-4">
+		<h2>Networking</h2>
+		<p>Here are links to some basic books on Networking</p>
+		<p><a href="Absolute Beginner's Guide to Networking, Fourth Edition.chm"> Beginner's Guide to Networking</a><p>
+		<p><a href="Cryptography FAQ's.txt"> Basics of Cryptography</a><p>
+		<p> We cant provide you everything to download here because of limited space</p>
+		<p><a href="reachus.html"> Contact us </a>for more related book and tutorials</p> 
+		
+			
+			</div>
+	<div id="tabs-5">
+		<h2>Designing</h2>
+		<p><a href="http://www.tutorialized.com/tutorials/Photoshop/1">Photoshop Tutorial</a></p>
+		<p> Designing in Photoshop and Fireworks in just matter of practice, so concentrate on more and more practicing after you get familiar with the software</p>
+		<div>
+</div>
+
+</div><!-- End demo -->
+
+<div class="demo-description">
+
+
+
+</div><!-- End demo-description -->
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>untitled</title>
+  <script src="jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery.color.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery-glowing.js" type="text/javascript" charset="utf-8"></script>
+
+  <style type="text/css" media="screen">
+    body {
+      font-size: 13px;
+      font-family: Helvetica;
+      font-weight: bold;
+      background: #101010;
+      color: #555;
+    }
+      
+    .main{
+      width: 100%;
+      height:100%;	
+      margin: 0px auto;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #777;
+    }
+    
+    a.glowing {
+      color: #0af;
+    }
+  </style>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      $('.white').addGlow({ textColor: 'white', haloColor: '#aaa', radius: 60 });
+      $('.blue').addGlow({ textColor: '#00f', haloColor: '#00f', radius: 60 });
+      $('.green').addGlow({ textColor: '#0f0', haloColor: '#0f0', radius: 60 });
+      $('.red').addGlow({ textColor: '#f00', haloColor: '#f00', radius: 60 });
+      $('*').bind('glow:started', console.info);
+      $('*').bind('glow:canceled', console.info);
+    });
+    
+  </script>
+</head>
+<body>
+  <div class="main">
+<center><a class="red" > 
+&copy; 2009 All Rights Reserved | The Colloquium</a><br>
+<a class="blue">	       Web Development Team</a><br>
+<a class="white" >Nitish Rajguru | Amit Chhajer | Paramveer Singh Sisodia<br>
+<a class="blue" >		Web Designing</a><br>
+<a class="white" >	       Sanchit Katdare</a><br>
+</center></div>
+</body>
+</html>

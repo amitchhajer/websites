@@ -1,0 +1,300 @@
+body {
+    background: url(bg128.jpg) center top no-repeat black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Gill Sans, sans-serif;
+}
+
+a {
+    color: black;
+}
+
+img {
+    border:0;
+}
+
+#skip-anchor {
+    display: none;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    color:white;
+}
+
+#space{
+height:15px;
+}
+
+#footer {
+    background: #f4ffbc;
+    color: black;
+    font-size: 10px;
+    padding-left: 700px;
+}
+
+#footer img, #footer p {
+    display: inline;
+}
+
+#footer p {
+    padding-left: 20px;
+}
+
+#outer-wrapper {
+    background: url("footer".png) center bottom no-repeat transparent;
+    min-height: 700px;
+}
+
+#wrapper a {
+    color: inherit;
+}
+
+#header {
+    height: 90px;
+}
+
+#dates {
+position: absolute;
+top: 60px;
+left: 22%;
+color: #7dd9df;
+font-size: 15px;
+}
+
+#header img#logo {
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#header img#passes {
+	margin-left: 8%;
+	float: left;
+}
+
+#header #header-links {
+    background: url(navbar.png) top no-repeat;
+    float:right;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 400px;
+    height: 35px;
+    color: #051c32;
+}
+
+#header-links a {
+    padding: 10px 5px 0 5px;
+    font-weight: bolder;
+    text-decoration:none;
+}
+
+#header-links a:hover {
+    text-decoration: underline;
+}
+
+#top {
+    height: 184px;
+}
+
+#top div {
+}
+
+
+ul#navigation {
+    font-size: 20px;
+    line-height: 1.3em;
+    background: rgba( 10, 10, 10, 0.2 );
+    padding: 20px 20px;
+}
+
+ul#navigation a {
+	color: white;
+	text-decoration: none;
+}
+
+.sfhover {
+    border-bottom: solid 1px blue;
+}
+
+ul#navigation li {
+    padding: 10px 0 0 10px;
+}
+
+ul#navigation li.sfhover, ul#navigation li:hover {
+    background: rgba( 34, 94, 149, 0.9 );
+}
+
+#navigation #cultural-events:hover {
+	background: #94090D;
+}
+#navigation #online-events:hover {
+	background: #4b4a4c;
+}
+#navigation #workshops-events:hover {
+	background: #ab8574;
+}
+
+#navigation #cultural-events ul  {
+	background: rgba( 148, 8, 13, 0.8 );
+}
+#navigation #technical-events ul {
+    background: rgba( 34, 94, 149, 0.8 );
+}
+#navigation #online-events ul {
+	background: rgba( 75, 74, 76, 0.8 );
+}
+#navigation #workshops-events ul {
+	background: rgba( 171, 91, 71, 0.8 );
+}
+
+#navigation #cultural-events ul ul {
+	background: rgba( 255, 29, 35 , 0.8 );
+}
+
+#navigation #technical-events ul ul {
+    background: rgba( 100, 255, 255, 0.8 );
+}
+
+#navigation #technical-events ul ul a {
+color: black;
+}
+
+ul#navigation li ul {
+    font-size: 16px;
+}
+
+ul#navigation li ul li {
+    padding: 10px 0 0 10px;
+}
+
+#gallery, #news-scroll, #sponsors-scroll {
+    z-index: -1000;
+    overflow: hidden;
+    text-align:center;
+    display: inline;
+    margin: 0;
+    padding: 20px;
+    font-size: 12px;
+    float: right;
+}
+
+#gallery {
+    width: 200px;
+    height: 110px;
+    margin-top: 0;
+}
+
+#sponsors-scroll li, #gallery ul {
+    list-style-type:none;
+}
+
+#sponsors-scroll li, #gallery li {
+    float: right;
+    padding: 10px 15px 0 25px;
+    position: relative;
+    width: 155px;
+    height: 100px;
+}
+
+#sponsors-scroll-internal li span, #gallery-internal li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 205px;
+    height: 122px;
+    background: url(gallerybg.png) no-repeat top;
+    overflow: hidden;
+}
+
+#news-scroll {
+    width: 200px;
+    height: 122px;
+    margin-top: 25px;
+    margin-left: 20px;
+    background: url(newsbg.png) top no-repeat;
+}
+
+#news-scroll li {
+    width: 200px;
+}
+
+#news-scroll a {
+    color: white;
+}
+
+#news-scroll-internal {
+    margin-top: 10%;
+}
+
+#sponsors-scroll {
+    width: 200px;
+    text-align:center;
+    height: 110px;
+}
+
+#sponsors-scroll-internal {
+}
+
+#main-content {
+    background: rgba( 0, 0, 0, 0.7 );
+    color: white;
+    padding: 10px 65px 50px;
+    font-size: 13px;
+    line-height: 200%;
+    font-family: Lucida, sans-serif;
+    min-height: 300px;
+}
+
+#main-content #toc {
+    float: right;
+    margin-top: -5px;
+    line-height: 100%;
+    padding-bottom: 25px;
+}
+
+#main-content a {
+    padding: 5px 10px;
+    font-size: 12px;
+color: black;
+background: #fff986;
+}
+
+#toc a {
+color: white;
+background: transparent;
+}
+
+#main-content #toc .tab {
+    cursor: pointer;
+}
+
+#main-content #toc .activetab, #main-content #toc .tab:hover {
+    background: #051a2e;
+    color: white;
+}
+
+#main-content #toc .activetab {
+    background: #94b9c2;
+    color: black;
+}
+
+#main-content h1 {
+    font-size: 26px;
+color: #97e572;
+    font-family: Arial,  sans-serif;
+	margin-bottom: 50px;
+}
+
+#main-content h3 {
+	text-decoration: underline;
+}
+
+/* Hide if no JS */
+#sponsors-scroll-internal {
+    display: none;
+}
